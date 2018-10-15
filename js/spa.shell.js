@@ -195,7 +195,7 @@ spa.shell = (function () {
         }
         stateMap.anchor_map = anchor_map_proposed;
 
-        // convenience var
+        // convenience vars
         _s_chat_previous = anchor_map_previous._s_chat;
         _s_chat_proposed = anchor_map_proposed._s_chat;
 
