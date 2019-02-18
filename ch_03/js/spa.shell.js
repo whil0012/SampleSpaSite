@@ -256,7 +256,7 @@ spa.shell = (function () {
         // is considered on-load
         //
         $(window)
-            .bind('hashchange', onHashchange)
+            .on('hashchange', onHashchange)
             .trigger('hashchange');
     };
     // End PUBLIC method /initModule/
